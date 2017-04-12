@@ -1,0 +1,40 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+.center {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.heading {
+    color: #02b3e4;
+    font-size: 3em;
+}
+
+.main-image {
+    max-width: 100%;
+    border-radius: 20px;
+    border: solid 4px #02b3e4;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+.counter {
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #02b3e4;
+}
+
+.clicks {
+    margin: 0;
+    color: #fff;
+    font-size: 2em;
+}
