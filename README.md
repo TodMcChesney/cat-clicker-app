@@ -1,7 +1,10 @@
 # Cat Clicker App
 
 This is a simple app that uses JavaScript to dynamically update a
-counter when the image of the cat is clicked.
+counter when the image of the cat is clicked. I created 2 versions:
+
+* The ```master``` branch uses jQuery
+* The ```vanilla-js-version``` branch uses plain JavaScript
 
 ## Getting Started
 
