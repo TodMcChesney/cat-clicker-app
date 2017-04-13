@@ -1,6 +1,8 @@
+var catImage = document.querySelector('.main-image');
+var counter = document.querySelector('.counter');
 var numClicks = 0;
 
-$('.main-image').click(function() {
+catImage.addEventListener('click', function() {
     numClicks += 1;
-    $('.counter').text('Number of Clicks: ' + numClicks);
+    counter.textContent = 'Number of Clicks: ' + numClicks;
 });
